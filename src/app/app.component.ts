@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'northwind';
+  title: string = "northwind";
+  user: string = "Engin Demirog"
+  
 }
+
+//Datayi yönettiğimiz yerdir.
+//Veri tipini vermeye gerek yok.
+//Noktalı virgül koymaya gerek yok.
+//any, her veri türü olabilir demektir.
+//Angular'da {} obje demektir.
